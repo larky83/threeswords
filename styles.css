@@ -66,8 +66,7 @@ html {
     gap: 10px;}
 
 .container h2 {
-    color: hsl(48, 98%, 78%);
-}
+    color: hsl(48, 98%, 78%);}
 
 .item {
     background-color: hsla(54, 0%, 30%, 0.9);
@@ -83,6 +82,10 @@ html {
     grid-template-columns: 200px 200px 200px;
     justify-content: space-evenly;
     gap: 10px;}
+
+.container2 a {
+    text-decoration: none;
+    color: white;}
 
 .member {
     background-color: hsla(54, 0%, 30%, 0.9);
