@@ -1,0 +1,111 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', Arial, sans-serif;}
+
+/**header**/
+#nav-bar {
+    display: flex;
+    background-color: black;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 5;}
+
+#nav-bar img {
+    width: 80px;
+    height: 80px;
+    padding-right: 420px;}
+
+#nav-bar li {
+    display: inline-grid;
+    font-size: 1.5em;
+    padding: 0.5rem;   }
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;}
+
+/**main splash**/
+#main {
+    margin-top: 800px;
+    height: 700px;
+    width: 95%;
+    margin: 0 auto;
+    background-image: url(hero-splash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding-top: 20%;}
+
+#content {
+    border: white solid 5px;
+    text-align: center;
+    background-color: hsla(54, 0%, 30%, 0.9);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2rem;}
+
+#content h1 {
+    color: 	hsl(48, 98%, 78%);
+}
+
+/**service containers**/
+.pics {
+    background-image: url(work-all.jpg);
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.container {
+    margin-top: 600px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+    gap: 10px;}
+
+.container h2 {
+    color: hsl(48, 98%, 78%);
+}
+
+.item {
+    background-color: hsla(54, 0%, 30%, 0.9);
+    border: solid 3px white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;}
+
+/**staff containers**/
+.container2 {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+    gap: 10px;}
+
+.member {
+    background-color: hsla(54, 0%, 30%, 0.9);
+    border: solid 3px white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;}
+
+.member img {
+    height: 70px;
+    width: 70px;}
+
+/**footer**/
+#contact ul {
+    margin-top: 600px;
+    color: hsl(48, 98%, 78%);
+    border: solid white 2px;
+    line-height: 40px;
+    padding-left: 20px;}
+
+#contact li {
+    display: inline;
+    padding-right: 180px;}
+
+#contact li a {
+    color: hsl(48, 98%, 78%);}
